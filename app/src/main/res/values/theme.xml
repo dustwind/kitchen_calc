@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CoffeTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/CoffeTheme.ActionBarStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/CoffeTheme.ActionBar.TabText</item>
+        <item name="android:windowBackground">@color/window_background_color</item>
+        <item name="android:textColor">@color/fount_color</item>
+    </style>
+
+    <style name="CoffeTheme.ActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/fount_color</item>
+        <item name="android:titleTextStyle">@style/CoffeTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="CoffeTheme.ActionBar.TitleTextStyle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/window_background_color</item>
+    </style>
+
+    <style name="CoffeTheme.ActionBar.TabText" parent="android:Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/fount_color</item>
+    </style>
+
+
+
+
+
+</resources>
