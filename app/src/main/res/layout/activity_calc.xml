@@ -75,6 +75,18 @@
             android:textSize="7pt"
             android:id="@+id/eavail"/>
     </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Рецепт:"
+            android:textSize="7pt"/>
+        </LinearLayout>
+        
 </LinearLayout>
         <ListView
             android:layout_width="fill_parent"
